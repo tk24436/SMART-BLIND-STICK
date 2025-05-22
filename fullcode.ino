@@ -22,7 +22,7 @@ SoftwareSerial gsmSerial(12, 13); // RX, TX for A767X
 
 TinyGPSPlus gps;
 
-String phoneNumber = "+919417836223"; // Replace with your phone number
+String phoneNumber = ""; // Replace with your phone number
 
 void setup() {
   Serial.begin(9600);
